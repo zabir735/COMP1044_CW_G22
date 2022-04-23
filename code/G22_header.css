@@ -1,0 +1,114 @@
+body{
+	background-color: #fffef5;
+}
+
+#header{
+	width:100%;
+	background-color: #f0f0f0;
+	padding-top: 5%; 
+	position: relative;
+}
+
+#homelogo{
+	width:13%;
+	height: 100%;
+	float: left;
+	position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+#homelogo img{
+	max-height: 85%;
+	width: 70%;
+	margin: 4.5% 8%;
+}
+
+#center{
+	width:77%;
+	height:100%;
+	float:left;
+	position:  absolute;
+	left: 13%;
+	top: 0;
+	bottom: 0;
+}
+
+#aa, #drop{
+	width:20%;
+	float: left;
+	height:85%;
+}
+
+#aa a, #drop a, #userimg a{
+	color:#222;
+	text-decoration:none;
+	font-size: 1.32vw;
+	font-family: courier new;
+	font-weight: bold;
+	text-align:center;
+}
+
+#aa dt, #drop dt{
+	padding-top: 2.5%;
+	padding-bottom:2.5%;
+}
+
+#aa dt:hover, #drop dt:hover{
+	background-color:#e3e3e3;
+}
+
+#drop:hover #dropcontent{
+	display: block;
+}
+
+#userimg:hover #userdropcontent{
+	display:block;
+}
+
+#dropcontent{
+	display: none;
+	position: absolute;
+	background-color: #edebeb;
+	min-width: 15%;
+}
+
+#userdropcontent{
+	display: none;
+	position: absolute;
+	background-color: #edebeb;
+	min-width: 10%;
+}
+
+#dropcontent a, #userdropcontent a{
+	float: none;
+	color: black;
+	padding:15px 10px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-size:1.1vw;
+}
+
+#dropcontent a:hover, #userdropcontent a:hover{
+	background-color: #f5f5f5;
+}
+
+#userimg{
+	float:right;
+	width:10%;
+	height:100%;
+	text-align:right;
+	position:  absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+
+#userimg img{
+	max-height:90%;
+	width: 41%;
+	margin: 2% 8%;
+}
