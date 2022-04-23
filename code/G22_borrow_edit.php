@@ -32,18 +32,19 @@
 		{
 			if(elementValue.value == "returned")
 			{
+				document.getElementById("dater1").required = true;
 				document.getElementById("dater").style.display = 'block';
 				document.getElementById("dater2").remove(dater2);
-				document.getElementById("dater1").required = true;
+				
 			}
-			else
+			else if(elementValue.value == "pending")
 			{
+				document.getElementById("dater1").required = false;
 				document.getElementById("dater").style.display = 'none';
 				document.getElementById("dater2").remove(dater2);
+				
 			}
-			//document.getElementById("dater2").element.remove = elementValue.value == "pending";
-			//document.getElementById("dater").style.display = 'block' : 'none';
-			//document.getElementById("dater1").required = true;
+
 		}
 		
 		function unchangeable()
